@@ -32,7 +32,7 @@
           </ul>
           &nbsp; &nbsp;
           <a href="www.iitgoa.ac.in">
-            <img src="./img/iit-goa-logo1.png" height="70px">
+            <img src="./img/iitgoalogo.png" height="70px">
           </a>
         </div>
       </div>
@@ -226,46 +226,39 @@
             </div>
           </div>
         </div>
-        <!-- <hr />
+
+
+        <hr />
+
+        <!-- Event 2 -->
+
         <div class="row pt-5 wow fadeInRight" data-wow-delay=".3s">
           <div class="col-lg-6 col-xl-7 mb-3">
             <div class="row mb-3">
-              <div class="col-1 mr-1"><i class="fa fa-bar-chart fa-2x indigo-text"></i></div>
+              <div class="col-1 mr-1"><i class="fa fa-code fa-2x red-text"></i></div>
               <div class="col-10">
-                <h5 class="font-bold">Marketing</h5>
+                <h5 class="font-bold">Upcoming Events</h5>
                 <p class="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
-                  assumenda
-                  voluptate velit.
+                  CTF Training Session
+                  <br>
+                  CTf Challenge Solving<br>
+                  Web App Security
                 </p>
               </div>
             </div>
             <div class="row mb-3">
-              <div class="col-1 mr-1"><i class="fa fa-music fa-2x pink-text"></i></div>
+              <div class="col-1 mr-1"><i class="fa fa-calendar-o fa-2x deep-purple-text"></i></div>
               <div class="col-10">
-                <h5 class="font-bold">Entertainment</h5>
+                <h5 class="font-bold">Schedule</h5>
                 <p class="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
-                  assumenda
-                  voluptate velit.
-                </p>
-              </div>
-            </div>
-            <div class="row mb-3">
-              <div class="col-1 mr-1"><i class="fa fa-smile-o fa-2x blue-text"></i></div>
-              <div class="col-10">
-                <h5 class="font-bold">Communication</h5>
-                <p class="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
-                  assumenda
-                  voluptate velit.
+                  Coming Soon
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-5 mb-3"><img class="img-fluid rounded z-depth-2" src="img/san-francisco.jpg"
+          <div class="col-lg-6 col-xl-5 mb-3"><img class="img-fluid rounded z-depth-2" src="img/event.jpg"
               alt="project image" /></div>
-        </div> -->
+        </div>
       </div>
     </section>
 
@@ -314,7 +307,53 @@
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="row wow zoomIn">
+          <div class="col-lg-4 col-md-12 mb-r">
+            <div class="card card-image">
+              <div
+                class="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3 rounded">
+                <div class="card-body">
+                  <div class="h4">Introduction Web Vulnerabilities</div>
+                  <div class="h6"> - By Rahul Varale </div>
+                  <a href="https://seminar.now.sh/" target="_blank">
+                    <a class="btn btn-outline-white mt-5"> Read Now </a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-r">
+            <div class="card card-image">
+              <div
+                class="text-white text-center pricing-card d-flex align-items-center rgba-black-strong py-3 px-3 rounded">
+                <div class="card-body">
+                  <div class="h4">LSB Image Steganography Using Python</div>
+                  <br>
+                  <div class="h6"> - By Devang Jain </div>
+                  <a href="https://medium.com/swlh/lsb-image-steganography-using-python-2bbbee2c69a2" target="_blank">
+                    <a class="btn btn-outline-white mt-5"> Read Now </a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-r">
+            <div class="card card-image">
+              <div
+                class="text-white text-center pricing-card d-flex align-items-center rgba-teal-strong py-3 px-3 rounded">
+                <div class="card-body">
+                  <div class="h4">Python KeyLogger Tutorial</div>
+                  <div class="h6"> - By Devang Jain </div>
+                  <a href="https://medium.com/analytics-vidhya/python-keylogger-tutorial-ef178d02f24a" target="_blank">
+                    <a class="btn btn-outline-white mt-5"> Read Now </a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
     </section>
 
     <!-- videos end -->
@@ -547,7 +586,9 @@
                 </div>
                 <div class="col-md-4">
                   <ul class="list-unstyled text-center">
-                    <li class="mt-4"><i class="fa fa-map-marker indigo-text fa-2x"></i>
+                    <li class="mt-4">
+                      <i class="fa fa-map-marker indigo-text fa-2x"></i>
+                      <!-- <div id="map" style="height:200px; width: 200px;"></div> -->
                       <p class="mt-2">IIT Goa, Farmagudi, Ponda, Goa </p>
                     </li>
                     <li class="mt-4"><a href="tel:+919048881188"><i class="fa fa-phone indigo-text fa-2x"></i>
@@ -598,6 +639,22 @@
       </div>
     </div>
   </footer>
+  <!-- <script>
+    function initMap() {
+      var test = { lat: 15.42, lng: 73.98 };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: test
+      });
+      var marker = new google.maps.Marker({
+        position: test,
+        map: map
+      });
+    } 
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script> -->
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
