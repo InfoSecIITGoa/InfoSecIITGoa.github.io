@@ -6,9 +6,7 @@ InfoSec Website
 
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/leomajorr/infosec)
-
-[![Preview Website](https://img.shields.io/badge/Website%20Preview-Link-brightgreen)](https://github.com/LeoMajorR/InfoSec)
+![GitHub repo size](https://img.shields.io/github/repo-size/leomajorr/infosec) [![Preview Website](https://img.shields.io/badge/Website%20Preview-Link-brightgreen)](https://leomajorr.github.io/InfoSec/)
 
 
 <img src="./img/infosec.png">
