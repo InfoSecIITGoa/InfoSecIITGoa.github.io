@@ -1,5 +1,5 @@
 #intro {
-  background: url("../img/ezgif.com-gif-maker.gif") no-repeat center center;
+  background: url("../img/homebackground.gif") no-repeat center center;
   background-size: cover;
 }
 
@@ -43,9 +43,39 @@
 }
 
 #resources .card-image {
-  background: url("../img/architecture.jpg") no-repeat center center;
+  background: url("../img/cardbg.jpg") no-repeat center center;
 }
 
 #resources ul li {
   font-size: 1.1em;
+}
+
+#footer i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#contact i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#team i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#resources .btn:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+#intro .btn:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
