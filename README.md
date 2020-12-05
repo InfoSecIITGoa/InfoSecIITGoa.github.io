@@ -6,7 +6,10 @@ InfoSec Website
 
 
 
-![GitHub contributors](https://img.shields.io/github/contributors/leomajorr/infosec) [![Created Badge](https://badges.pufler.dev/created/leomajorr/infosec)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/leomajorr/infosec)
+![GitHub repo size](https://img.shields.io/github/repo-size/leomajorr/infosec)
+
+[![Preview Website](https://img.shields.io/badge/Website%20Preview-Link-brightgreen)](https://github.com/LeoMajorR/InfoSec)
+
 
 <img src="./img/infosec.png">
 
