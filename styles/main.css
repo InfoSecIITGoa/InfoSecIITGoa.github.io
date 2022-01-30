@@ -1,6 +1,7 @@
 #intro {
-  background: url("../img/homebackground.gif") no-repeat center center;
+  background: url("../img/matrix.gif") no-repeat center center;
   background-size: cover;
+  opacity: 0.9;
 }
 
 .top-nav-collapse {
